@@ -9,7 +9,7 @@ int main(){
     cin >> side;
     cout << "Volume of the cube: " << side * side * side << endl; 
     cout << endl;
-    int w = 1, l = 1;
+    int w, l;
     cout << "Input width and length of rectangle: ";
     cin >> w >> l;
     cout << "Area of the rectangle: " << w * l << endl;
