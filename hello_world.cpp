@@ -3,6 +3,9 @@
 
 using namespace std;
 
+// Using printf for output and scanf for input
+// Using cout for output and cin for input
+
 int main()
 {
     cout << "Hello World !!!!" << endl;
