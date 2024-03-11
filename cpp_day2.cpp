@@ -20,6 +20,18 @@ int main(){
     char lowerChar = tolower(s);
     cout << "Lower case: " << lowerChar << endl;
     cout << endl;
+
+    string str, res;
+    cin.ignore();
+    cout << "Input the String: ";
+    getline(cin, str);
+    res = "";
+    for (int i = 0; i < str.length(); i++) {
+        res += tolower(str[i]);
+    }
+    cout << res << endl;
+
+    cout << endl;
     int a;
     cout << "Input integer: ";
     cin >> a;
