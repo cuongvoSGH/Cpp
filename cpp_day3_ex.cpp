@@ -20,8 +20,7 @@ int main() {
     //     else if (water_deg >= 100) cout << "That is steam" << endl;
     //     else cout << "That is liquid" << endl;
 
-    // char color[100];
-    // cin.ignore();
+    // string color;
     // cout << "Input car color: ";
     // cin >> color;
 
